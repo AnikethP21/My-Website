@@ -1,18 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hey, I'm Aniketh!</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="star-bg">
-        <h1 class="glitch-text">Welcome To My Website!</h1>
-        <button class="futuristic-btn">Click Me</button>
-        <div class="glass">
-            <p class="glow-text">This is a holographic panel.</p>
-        </div>
-    </div>
-</body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background: radial-gradient(circle, #001F3F, #000000);
+    color: #00FFFF;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.glitch-text {
+    font-size: 2em;
+    animation: glitch 0.5s infinite alternate;
+}
+
+.futuristic-btn {
+    background: linear-gradient(90deg, #00FFFF, #8A2BE2);
+    box-shadow: 0 0 10px #00FFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.futuristic-btn:hover {
+    transform: scale(1.05);
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+

@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey, I'm Aniketh!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="star-bg">
+        <h1 class="glitch-text">Welcome To My Website!</h1>
+        <button class="futuristic-btn">Click Me</button>
+        <div class="glass">
+            <p class="glow-text">This is a holographic panel.</p>
+        </div>
+    </div>
+</body>
+</html>
